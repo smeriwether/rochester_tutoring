@@ -1,0 +1,17 @@
+{
+  "name": "rochestertutoring",
+  "version": "1.0.0",
+  "description": "Website for rochestertutoring.com",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./styles.css -o ./site/styles.css && cp index.html ./site/index.html"
+  },
+  "author": "Stephen Meriwether",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.2.0",
+    "postcss": "^8.2.2",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
