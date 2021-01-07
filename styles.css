@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  p {
+    @apply mb-5;
+  }
+
+  header {
+    @apply mt-2 mb-5;
+  }
+
+  section {
+    @apply mt-7 mb-14 md:mt-16 md:mb-20;
+  }
+
+  h2 {
+    @apply text-5xl font-semibold;
+  }
+
+  li {
+    @apply mb-3;
+  }
+
+  input {
+    @apply w-full py-2 px-3 text-sm border border-gray-300 bg-white h-10 rounded;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply block w-full md:w-2/5 py-2 rounded-md shadow-lg font-bold text-center uppercase cursor-pointer tracking-wider hover:opacity-80;
+  }
+
+  .dot {
+    @apply flex justify-center items-center rounded-full font-bold w-7 h-7 mr-2;
+  }
+
+  .link {
+    @apply underline hover:opacity-80;
+  }
+}

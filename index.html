@@ -1,11 +1,151 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Rochester Turtoring</title>
+    <title>Rochester Tutoring - Find tutors for Anatomy, Biology, Organic Chemistry, and Physiology.</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/styles.css" rel="stylesheet">
+    <meta content="We pair students who need help in Anatomy, Biology, and Organic Chemistry, and Physiology with medical students at the University of Rochester Medical Center." name="description">
+    <meta content="Rochester Tutoring - Find tutors for Anatomy, Biology, Organic Chemistry, and Physiology." property="og:title">
+    <meta content="We pair students who need help in Anatomy, Biology, and Organic Chemistry, and Physiology with medical students at the University of Rochester Medical Center." property="og:description">
+    <meta content="./public/images/graph.jpg" property="og:image">
+    <meta property="og:type" content="website">
+    <meta content="summary_large_image" name="twitter:card">
+    <link href="./public/images/logo.jpg" rel="apple-touch-icon">
+    <link rel="icon" href="./public/images/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./public/images/favicon.ico" type="image/x-icon"/>
+    <link href="./styles.css" rel="stylesheet">
+    <link href="./public/fonts.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="bg-gray-50 text-gray-900 px-5 font-opensans md:px-0">
+    <main class="container max-w-screen-md mx-auto">
+      <section>
+        <header>
+          <h1 class="text-4xl text-primary font-merriweather font-bold"><a href="/">Rochester Tutoring</a></h1>
+        </header>
+      </section>
+
+      <section>
+        <header>
+          <h2>Tutoring with med-students</h2>
+        </header>
+
+        <p>
+          Rochester Tutoring pairs students who need help in <strong>Anatomy</strong>, <strong>Biology</strong>, <strong>Organic Chemistry</strong>,
+          and <strong>Physiology</strong> with medical students at the
+          <a href="https://www.urmc.rochester.edu/" class="link" target="_blank" rel="noopener">University of Rochester Medical Center</a>.
+        </p>
+
+        <p>
+          We all need help from time-to-time. Get help from medical students who have been in your position and made it out the other side.
+        </p>
+
+        <div class="my-5 md:my-10">
+          <a href="#find-a-tutor" class="btn text-white bg-primary">Find a tutor</a>
+        </div>
+      </section>
+
+      <section class="flex flex-col md:flex-row">
+        <div class="w-full md:w-2/5 mb-4 md:mb-0 md:mx-6">
+          <img src="https://uploads-ssl.webflow.com/5f22d68419e812cdca28c980/5f22e189441c1662a1b73577_malayna-blob.png" class="mx-auto" width="300" alt="Featured tutor Malayna Hocker" />
+        </div>
+
+        <div class="w-full md:w-3/5 md:px-6">
+          <header>
+            <span class="font-extrabold text-primary uppercase tracking-wider">Featured tutor</span>
+            <h2>Malayna Hocker</h2>
+          </header>
+
+          <p>
+            Malayna is a medical student at the University of Rochester Medical Center. She has a B.A. in Biology from
+            <a href="https://www.smith.edu" class="link" target="_blank" rel="noopener">Smith College</a> and completed a Post-bacc at
+            <a href="https://www.columbia.edu" class="link" target="_blank" rel="noopener">Columbia University</a>.
+          </p>
+
+          <p>
+            Before medical school, Malayna spent 3 years teaching grade school in New York City. While at Columbia, she was a Teaching Assistant in Organic Chemistry.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <header>
+          <h2>Straight-forward pricing</h2>
+        </header>
+
+        <p>
+          Tutors have simple and straight-forward pricing for all services. We'll help you find a tutor and you pay the tutor directly.
+        </p>
+
+        <h3 class="mt-2 mb-5 text-4xl font-semibold">$60/hour.</h3>
+
+        <p>
+          One flat fee for all types of tutoring.
+        </p>
+      </section>
+
+      <section>
+        <header>
+          <h2>How it works</h2>
+        </header>
+
+        <p>
+          Finding a tutor is easy. Once you fill out the Find a tutor form, we'll send your information to every tutor on our platform and tutors will reach out to you directly.
+          Once you find a tutor, you'll work with them to schedule sessions and you'll pay them directly. Tutors accept Cash or Venmo.
+        </p>
+
+        <ol class="list-inside pl-4 md:pl-8">
+          <li class="flex">
+            <span class="dot bg-secondary text-primary">1</span>
+            <span>Submit the <strong>"Find a tutor" form.</strong></span>
+          </li>
+          <li class="flex">
+            <span class="dot bg-secondary text-primary">2</span>
+            <span>We'll send your request to every tutor on our platform.</span>
+          </li>
+          <li class="flex">
+            <span class="dot bg-secondary text-primary">3</span>
+            <span>Available <strong>tutors will reach out to you directly.</strong></span>
+          </li>
+          <li class="flex">
+            <span class="dot bg-secondary text-primary">4</span>
+            <span>Schedule sessions and <strong>pay your tutor directly.</strong></span>
+          </li>
+        </ol>
+      </section>
+
+      <section>
+        <header>
+          <h2 id="find-a-tutor">Find a tutor</h2>
+        </header>
+
+        <p>
+          Once you submit the form you should hear from someone within 24 hours. Depending on availability and time-of-day it might be a little faster or a little longer.
+          If forms aren't your thing feel free to email us at <a href="mailto:support@rochestertutoring.com" class="link">support@rochestertutoring.com</a>.
+        </p>
+
+        <form action="https://submit-form.com/HeDKGrh5" method="POST" target="_self" class="w-full mt-2 mb-5">
+          <input type="hidden" name="_append" value="false" />
+
+          <label for="name" class="block font-bold mb-2 text-sm">What's your name?*</label>
+          <input id="name" type="text" maxlength="256" name="name" class="mb-5" />
+
+          <label for="email" class="block font-bold mb-2 text-sm">What's your email address?*</label>
+          <input id="email" type="email" maxlength="256" name="email" class="mb-5" />
+
+          <label for="subject" class="block font-bold mb-2 text-sm">What do you need help with?*</label>
+          <input id="subject" type="text" maxlength="256" name="subject" class="mb-5" />
+
+          <label for="location" class="block font-bold mb-2 text-sm">Remote or In-Person or Both?*</label>
+          <input id="location" type="text" maxlength="256" name="location" class="mb-5" />
+
+          <input type="submit" value="Submit" class="btn bg-primary text-white mt-5 mb-2 md:mt-8 md:mb-4" />
+          <span class="text-sm text-gray-700">We'll never send you spam. We hate spam as much as you do.</span>
+        </form>
+      </section>
+    </main>
+
+    <footer class="w-full mt-20 mb-10 text-center">
+      <span class="text-sm">Made with ❤️ in NY</span>
+    </footer>
   </body>
 </html>
