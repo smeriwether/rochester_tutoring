@@ -31,3 +31,7 @@ The website will automatically deploy when the `main` branch is updated on Githu
 
 The content and design of this website is [copyrighted](https://www.copyright.gov/help/faq/faq-general.html#mywork). Feel 
 free to ask if you want to reuse any content beyond the bounds of [fair use](https://www.copyright.gov/fair-use/more-info.html).
+
+
+
+[![CircleCI](https://circleci.com/gh/smeriwether/rochester_tutoring.svg?style=svg)](https://rochestertutoring.com)
