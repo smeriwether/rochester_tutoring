@@ -4,7 +4,8 @@
   "description": "Website for rochestertutoring.com",
   "main": "index.js",
   "scripts": {
-    "build": "postcss ./styles.css -o ./site/styles.css && cp index.html ./site/index.html"
+    "build": "./build.sh",
+    "open": "open ./site/index.html"
   },
   "author": "Stephen Meriwether",
   "license": "MIT",
