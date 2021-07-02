@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "description": "Website for rochestertutoring.com",
   "scripts": {
-    "build": "./build.sh",
     "open": "open ./site/index.html",
-    "deploy": "./deploy.sh"
+    "build": "./build.sh"
   },
   "author": "Stephen Meriwether",
   "license": "no-license",

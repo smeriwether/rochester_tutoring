@@ -2,7 +2,7 @@
 
 rm -rf ./site
 
-npx postcss ./styles.css -o ./site/styles.css
+npx postcss --config=./postcss.config.js ./styles.css -o ./site/styles.css
 
 cp index.html ./site/index.html
 cp thanks.html ./site/thanks.html
